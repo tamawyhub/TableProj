@@ -1,0 +1,19 @@
+would you be interested in and capable of the following:
+
+I am wanting to control 2 linear actuators with Hall effect sensors in sync with PID controls.
+Or something that will keep them in sync without slowing them down or slow them as little as possible.
+The speed will always be as fast as possible, all i want to control is how far the actuators move.
+The stroke length will be 2” max (50mm) but please leave good notes for me to adjust all of the parameters
+as this could be +/- 15mm. There will be 2 inputs, a simple on off button; when in the on position the movement
+of the actuators would be limited in movement by the second input, a gps sensor giving speed.
+As the speed increases the actuators would be restricted in how far it could move in their stroke.
+At a certain speed they would not actuate at all (>60mph). Example: moving forward at 20mph
+the actuator would have the full 50mm of movement should the input be in the ON position but at 40mph
+it would only move to a position at 50% of the full 50mm. At 60mph it would not move,
+however if you slowed to 55mph it would move slightly and more and more as the speed is reduced.
+This would be a linear progression in how much movement the actuators can go between 0-60mph
+but would need to be able to adjust these parameters in the code. Is this something you could do?
+
+Not certain of cost or time involved. Please let me know your thoughts.
+
+GPS sensor - grove gps sensor https://www.seeedstudio.com/Grove-GPS-Module.html?gclid=EAIaIQobChMIrNLRoIOK9AIVsmxvBB2lwgLwEAQYASABEgLsNvD_BwE Arduino uno WI-FI Actuators x2- https://www.progressiveautomations.com/products/linear-actuator?variant=18277282840643 Motor driversx2 - https://www.firgelliauto.com/collections/arduino/products/high-current-dc-motor-drice-43a
