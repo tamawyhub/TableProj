@@ -16,4 +16,7 @@ but would need to be able to adjust these parameters in the code. Is this someth
 
 Not certain of cost or time involved. Please let me know your thoughts.
 
-GPS sensor - grove gps sensor https://www.seeedstudio.com/Grove-GPS-Module.html?gclid=EAIaIQobChMIrNLRoIOK9AIVsmxvBB2lwgLwEAQYASABEgLsNvD_BwE Arduino uno WI-FI Actuators x2- https://www.progressiveautomations.com/products/linear-actuator?variant=18277282840643 Motor driversx2 - https://www.firgelliauto.com/collections/arduino/products/high-current-dc-motor-drice-43a
+GPS sensor - grove gps sensor https://www.seeedstudio.com/Grove-GPS-Module.html?gclid=EAIaIQobChMIrNLRoIOK9AIVsmxvBB2lwgLwEAQYASABEgLsNvD_BwE
+Arduino uno WI-FI
+Actuators x2- https://www.progressiveautomations.com/products/linear-actuator?variant=18277282840643
+Motor driversx2 - https://www.firgelliauto.com/collections/arduino/products/high-current-dc-motor-drice-43a
