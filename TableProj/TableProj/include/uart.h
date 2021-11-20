@@ -11,7 +11,7 @@
 
 
 #ifndef FOSC
-#define FOSC 1843200 // Clock Speed
+#define FOSC 16000000UL // Clock Speed
 #endif
 
 void uart_init(uint32_t baudrate);

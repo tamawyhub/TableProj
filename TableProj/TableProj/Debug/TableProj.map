@@ -12,6 +12,23 @@ Discarded input sections
  .text          0x00000000        0x0 main.o
  .data          0x00000000        0x0 main.o
  .bss           0x00000000        0x0 main.o
+ .text          0x00000000        0x0 PWM/pwm.o
+ .data          0x00000000        0x0 PWM/pwm.o
+ .bss           0x00000000        0x0 PWM/pwm.o
+ .text.pwm_init
+                0x00000000       0x32 PWM/pwm.o
+ .text.pwm_set_duty
+                0x00000000       0x7e PWM/pwm.o
+ .debug_info    0x00000000      0x126 PWM/pwm.o
+ .debug_abbrev  0x00000000       0xa1 PWM/pwm.o
+ .debug_loc     0x00000000      0x14c PWM/pwm.o
+ .debug_aranges
+                0x00000000       0x28 PWM/pwm.o
+ .debug_ranges  0x00000000       0x18 PWM/pwm.o
+ .debug_line    0x00000000      0x118 PWM/pwm.o
+ .debug_str     0x00000000      0x19d PWM/pwm.o
+ .comment       0x00000000       0x31 PWM/pwm.o
+ .debug_frame   0x00000000       0x34 PWM/pwm.o
  .text          0x00000000        0x0 UART/uart.o
  .data          0x00000000        0x0 UART/uart.o
  .bss           0x00000000        0x0 UART/uart.o
@@ -85,6 +102,7 @@ Linker script and memory map
 Address of section .data set to 0x800100
 LOAD E:/Atmel/Studio/7.0/Packs/Atmel/ATmega_DFP/1.4.351/gcc/dev/atmega328p/avr5/crtatmega328p.o
 LOAD main.o
+LOAD PWM/pwm.o
 LOAD UART/uart.o
 START GROUP
 LOAD e:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
