@@ -4,6 +4,8 @@
 
 main.c
 
+NEO6M\neo6m.c
+
 PWM\pwm.c
 
 UART\uart.c
